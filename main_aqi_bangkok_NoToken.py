@@ -20,10 +20,9 @@ LINE_ACCESS_TOKEN = 'bNZ5dgvoKGtxiQ4peBolX4fqoj9bxWU6VnlSvFU9oLu' # PM2.5 Alert
 # from http://aqicn.org/data-platform/token/#/
 
 
-AQI_TOKEN  = '17ad20c5ee5c3a8d264063fef00af604e24e33d5'   #peeraponge@gmail.com
-#AQI_TOKEN2 = '17ad20c5ee5c3a8d264063fef00af604e24e33d5'  #peeraponge@pttep.com
+AQI_TOKEN  = '7ca7d36c33b392da72a4b75078c5a5668604a958'  
 
-url_page = 'https://api.waqi.info/search/?token=' + AQI_TOKEN + '&keyword=Chulalongkorn%20Hospital'
+url_page = 'https://api.waqi.info/search/?token=' + AQI_TOKEN + '&city=Bangkok'
 
 # https://api.waqi.info/search/?token=327a2f67c821f02e6a40c0851aa6240bf46a4889&keyword=Chulalongkorn%20Hospital
 
