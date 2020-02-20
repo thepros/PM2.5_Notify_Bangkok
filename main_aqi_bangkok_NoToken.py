@@ -94,19 +94,8 @@ for i in range(0,20000):
     Threshold = 100
     if (time_data != time_old) and (float(aqi) > Threshold): #if time change, then send line message
     
-        aqi_msg = 'Date : '+ date + ' , Time : ' + time_data + ' , At ' + place + ' , PM-2.5 = ' + aqi + ' , Quality is ' + quality
-
-        ## Line notify
-##
-##        url = 'https://notify-api.line.me/api/notify'
-##        msg = '' # Modify this line as header data
-##        msg = urllib.parse.urlencode({'message': msg})
-##        send_msg = msg + aqi_msg
-##        LINE_HEADERS = {'Content-Type': 'application/x-www-form-urlencoded',
-##                        'Authorization': 'Bearer '+LINE_ACCESS_TOKEN}
-##        session = requests.Session()
-##        response = session.post(url, headers=LINE_HEADERS, data=send_msg)
-##        
+        aqi_msg = 'Date : '+ date + ' , Time : ' + time_data + ' , At ' + place + ' , PM-2.5 = ' + aqi + ' , Quality is ' + quality    
+        
         response = func_line_notify(aqi_msg, LINE_ACCESS_TOKEN)
         
         print(response.text)# to check status of LINE notify
