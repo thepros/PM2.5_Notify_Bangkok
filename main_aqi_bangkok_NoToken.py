@@ -16,7 +16,7 @@ time_old = ''
 
 
 #LINE_ACCESS_TOKEN = '' # Individual
-LINE_ACCESS_TOKEN = 'bNZ5dgvoKGtxiQ4peBolX4fqoj9bxWU6VnlSvFU9oLu' # PM2.5 Alert
+LINE_ACCESS_TOKEN = 'KMfAer9A5Vcub20wLg708MK2pSrdPNZlvu9UQLMhYQs' # PM2.5 Alert
 # from http://aqicn.org/data-platform/token/#/
 
 
